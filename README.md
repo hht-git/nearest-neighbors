@@ -7,7 +7,7 @@ The purpose of the R code is to find K nearest neighbors for the spatial points 
 
 * Two orders of magnitude faster than st_nn function in *nngeo* package.
 * Longitude/latitude coordinates to xyz coordinates transformation.
-* Cord to arc and arc to cord convertion on earth great circle.
+* Chord to arc and arc to chord convertion on earth great circle.
 * 3 dimensional k-d tree searching.
 * Distance returned same as the result by Haversine function in *geosphere* package.
 * Methods to use non-vectorized function in *dplyr*'s mutate.
